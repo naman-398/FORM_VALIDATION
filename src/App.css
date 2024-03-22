@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.form{
+max-width: 500px;
+width: 100%;
+border-radius: 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form_box{
+border: 2px solid black;
+padding: 20px 25px;
+box-shadow: 20px #00000084 inset;
+max-width: 540px;
+border-radius: 25px;
+background-color: rgba(255, 166, 0, 0.323);
 }
+.inputs{
+  margin-bottom: 15px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input{
+  border-radius: 10px;
+  border: unset;
+  outline: unset;
+  padding: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.name{
+  font-size: 30px;
+  font-weight: 700;
+  color: cadetblue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal_box{
+  backdrop-filter: blur(30px);
+}
+.submitbox{
+  background-color: orange;
+  max-width: 350px;
+  max-height: 270px;
+  border-radius: 20px;
+}
+.sub-btn:hover{
+  transform: scale(.90);
+  border: 1px solid black;
+}
+.modalsvg{
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.bg-color{
+  background-color: rgba(63, 236, 63, 0.447);
+}
+.sub-btn{
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: khaki;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid transparent;
+  transition: all 300ms linear;
+}
+.eror{
+  color: red;
+  font-size: 12px;
 }
