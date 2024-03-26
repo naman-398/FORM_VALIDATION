@@ -121,7 +121,7 @@ const Myform = () => {
           <div className="inputs">
             <label htmlFor="number">Number:</label>
             <input
-              type="text"
+              type="number"
               id="number"
               name="number"
               value={formData.number}
